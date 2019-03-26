@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="C:\personal_workspace\Tech901\Class Practice\tech901_webdev\etchsketch\css\etchsketch.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <title></title>
+    </head>
+    <body>
+        <div id ="title">
+            <div id="title-wrapper">
+                <i id="edit" class="fas fa-edit"></i>
+                <h1>Drag-&-Draw</h1>
+                <h2>Click a button to start sketching !</h2>
+                <h3>Hint: Click a cell to undo color</h3>
+            </div>
+               
+        </div>
+        <div id="btn_div">
+            <div id="btn_wrapper">
+                    <button id="def_btn"  onclick="makeSketch(this)">Default Sketch Pad</button>
+                    <button id="cus_btn"  onclick="makeSketch(this)">Custom Sketch Pad</button>
+                    <button id="reset_btn" onclick="resetSketch()">Reset Sketch Pad</button> 
+                    <button id="remove_btn" onclick="removeSketch()">Delete Sketch Pad</button>
+            </div>
+        </div>
+        <div id="sketch_div"></div>
+        <script src="C:\personal_workspace\Tech901\Class Practice\tech901_webdev\etchsketch\javascript\etchsketch.js"></script>
+    </body>
+</html>
+
